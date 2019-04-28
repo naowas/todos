@@ -68,7 +68,6 @@ class TodosController extends Controller
         $todo->description = $data['description'];
 
         $todo->save();
-
         return redirect('/todos');
 
 
