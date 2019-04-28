@@ -59,7 +59,7 @@ class TodosController extends Controller
             'description'=>'required'
         ]);
 
-        $data =request()->all;
+        $data = request()->all;
 
         $todo = Todo::find($todoId);
 
